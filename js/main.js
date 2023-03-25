@@ -8,11 +8,11 @@ cnv.height = window.innerHeight
 
 // variáveis do game
 const player = new Player(
-    x = 0,
-    y = 0,
+    x = Math.floor(Math.random() * cnv.width / 2),
+    y = Math.floor(Math.random() * cnv.height / 2),
     width = 30,
     height = 60,
-    color = "gray",
+    color = "blue",
     up = "w",
     down = "s",
     left = "a",
