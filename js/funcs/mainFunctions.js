@@ -5,6 +5,7 @@ function draw() {
 function update() {
     ctx.clearRect(0, 0, cnv.width, cnv.height)
     moveObj(player)
+    colisionWithCanvas(player)
 }
 
 function game() {
