@@ -22,7 +22,7 @@ class Player {
         this.btnDown = down
         this.btnLeft = left
         this.btnRight = right
-        this.mvUp = this.mvDown = this.mvLeft = this.mvRight = false
+        this.mv = this.mvUp = this.mvDown = this.mvLeft = this.mvRight = false
         this.speed = 2
         this.currentDirection = 0
     }
