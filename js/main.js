@@ -8,16 +8,20 @@ cnv.height = window.innerHeight
 
 // variáveis do game
 const player = new Player(
-    x = Math.floor(Math.random() * cnv.width / 2),
-    y = Math.floor(Math.random() * cnv.height / 2),
-    width = 30,
-    height = 60,
+    x = Math.floor(cnv.width * 50 / 100),
+    y = Math.floor(cnv.height * 50 / 100),
+    width = 20,
+    height = 40,
     color = "blue",
     up = "w",
     down = "s",
     left = "a",
     right = "d"
 )
+const collumn1 = new Collumn(pos=1)
+const collumn2 = new Collumn(pos=2)
+const collumn3 = new Collumn(pos=3)
+const collumn4 = new Collumn(pos=4)
 
 const gravity = 0.2
 const estados = {
