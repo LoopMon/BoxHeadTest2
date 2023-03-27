@@ -25,4 +25,15 @@
     <div align="center">
 
     ![Box Head](./imgs/dia1.jpg)
+
+    </div>
+
+- ## Dia 2
+    - Criação dos pilares do mapa;
+    - Colisão com os pilares;
+
+    <div align="center">
+
+    ![Box Head](./imgs/dia2.png)
+
     </div>
