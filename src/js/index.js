@@ -27,7 +27,6 @@ const column4 = new Column(
 
 const game = new BoxHead(cnv, ctx, player, [column1, column2, column3, column4])
 
-const gravity = 0.2
 const estados = {
   pause: 0,
   playing: 1,

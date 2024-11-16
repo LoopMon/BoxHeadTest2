@@ -44,5 +44,5 @@ Box Head é uma jogo de sobreviver a horda de zombies, o jogo consiste em elimin
 
 ## Dia 3
 
-- Aplicando aos poucos conceitos de OO no projeto
+- Remodelando todo o projeto para aplicar conhecimentos de OO
 - Criação da Classe BoxHead para gerenciar os objetos do game
