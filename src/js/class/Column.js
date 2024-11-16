@@ -6,9 +6,15 @@ class Column {
     this.height = height
     this.color = color
   }
-  draw = (ctx) => {
-    ctx.fillStyle = this.color
-    ctx.fillRect(this.x, this.y, this.width, this.height)
+  draw = (ctx, option = "rect") => {
+    if (option == "stroke") {
+      ctx.strokeStyle = this.color
+      ctx.lineWidth = 2
+      ctx.strokeRect(this.x, this.y, this.width, this.height)
+    } else {
+      ctx.fillStyle = this.color
+      ctx.fillRect(this.x, this.y, this.width, this.height)
+    }
   }
   centered = () => {
     this.x = Math.floor(this.x - this.width / 2)
