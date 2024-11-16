@@ -2,8 +2,8 @@ class Player {
   constructor(
     x,
     y,
-    width = 30,
-    height = 60,
+    width = 10,
+    height = 15,
     color = "blue",
     up = "w",
     down = "s",
@@ -23,7 +23,7 @@ class Player {
     this.btnLeft = left
     this.btnRight = right
     this.mv = this.mvUp = this.mvDown = this.mvLeft = this.mvRight = false
-    this.speed = 2
+    this.speed = 1
     this.currentDirection = 0
   }
 
@@ -44,6 +44,43 @@ class Player {
     }
     if (player.mvRight) {
       player.x += player.speed
+    }
+  }
+
+  collision = (obj) => {
+    if (
+      this.x + this.width > obj.x &&
+      this.x < obj.x + obj.width &&
+      this.y + this.height > obj.y &&
+      this.y < obj.y + obj.height
+    ) {
+      if (this.mvUp) {
+        this.y += this.speed
+      }
+      if (this.mvDown) {
+        this.y -= this.speed
+      }
+      if (this.mvLeft) {
+        this.x += this.speed
+      }
+      if (this.mvRight) {
+        this.x -= this.speed
+      }
+    }
+  }
+
+  stayInto = (obj) => {
+    if (this.x + this.width > obj.width) {
+      this.x = obj.width - this.width
+    }
+    if (this.x < 0) {
+      this.x = 0
+    }
+    if (this.y + this.height > obj.height) {
+      this.y = obj.height - this.height
+    }
+    if (this.y < 0) {
+      this.y = 0
     }
   }
 }
