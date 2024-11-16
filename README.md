@@ -1,5 +1,6 @@
 # Box Head Game
-### Este repositório foi feito para fazer uma cópia de um jogo chamado "Box Head".
+
+Este repositório foi feito para fazer uma cópia de um jogo chamado "Box Head".
 
 <div align="center">
 
@@ -7,33 +8,41 @@
 
 </div>
 
-### Box Head é uma jogo de sobreviver a horda de zombies, o jogo consiste em eliminar os zombies com os equipamentos que o jogador vai adquirindo ao decorrer que elimina os zombies.
+Box Head é uma jogo de sobreviver a horda de zombies, o jogo consiste em eliminar os zombies com os equipamentos que o jogador vai adquirindo ao decorrer que elimina os zombies.
 
 <div align="center">
 
 ![Box Head](https://img.ibxk.com.br/2011/11/programas/866320510104958.jpg)
+
 </div>
 
 # Dia a Dia
 
-- ## Dia 1
-    - Criação do canvas;
-    - Criação do personagem;
-    - Movimentação do personagem;
-    - Colisão com o canvas;
+## Dia 1
 
-    <div align="center">
+- Criação do canvas;
+- Criação do personagem;
+- Movimentação do personagem;
+- Colisão com o canvas;
 
-    ![Box Head](./imgs/dia1.jpg)
+<div align="center">
 
-    </div>
+![Box Head](./doc_images/dia1.jpg)
 
-- ## Dia 2
-    - Criação dos pilares do mapa;
-    - Colisão com os pilares;
+</div>
 
-    <div align="center">
+## Dia 2
 
-    ![Box Head](./imgs/dia2.png)
+- Criação dos pilares do mapa;
+- Colisão com os pilares;
 
-    </div>
+<div align="center">
+
+![Box Head](./doc_images/dia2.png)
+
+</div>
+
+## Dia 3
+
+- Aplicando aos poucos conceitos de OO no projeto
+- Criação da Classe BoxHead para gerenciar os objetos do game
