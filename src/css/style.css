@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+#cnv {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  image-rendering: pixelated;
+  -webkit-image-rendering: pixelated;
+}

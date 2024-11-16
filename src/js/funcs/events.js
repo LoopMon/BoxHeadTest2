@@ -1,6 +1,6 @@
 document.addEventListener("keydown", (e) => {
-    getActionOn(player, e.key)
+  getActionOn(game.player, e.key)
 })
 document.addEventListener("keyup", (e) => {
-    getActionOff(player, e.key)
+  getActionOff(game.player, e.key)
 })
