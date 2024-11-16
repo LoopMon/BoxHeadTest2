@@ -17,13 +17,14 @@ class Player {
     this.height = height
     this.color = color
 
-    // movimentos
+    // atributos
     this.btnUp = up
     this.btnDown = down
     this.btnLeft = left
     this.btnRight = right
     this.mv = this.mvUp = this.mvDown = this.mvLeft = this.mvRight = false
     this.speed = 1
+    this.life = 10
     this.currentDirection = 0
   }
 
