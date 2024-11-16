@@ -16,6 +16,14 @@ class BoxHead {
   update = () => {
     this.ctx.clearRect(0, 0, this.cnv.width, this.cnv.height)
     this.player.move()
+    this.collisions()
+  }
+
+  collisions = () => {
+    this.player.stayInto(this.cnv)
+    this.columns.forEach((column) => {
+      this.player.collision(column)
+    })
   }
 
   game = () => {
