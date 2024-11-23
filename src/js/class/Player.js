@@ -26,6 +26,7 @@ class Player {
     this.speed = 1
     this.life = 10
     this.currentDirection = 0
+    this.distanceTolerance = 1
   }
 
   draw = (ctx) => {
@@ -56,16 +57,16 @@ class Player {
       this.y < obj.y + obj.height
     ) {
       if (this.mvUp) {
-        this.y += this.speed
+        this.y += this.speed + this.distanceTolerance
       }
       if (this.mvDown) {
-        this.y -= this.speed
+        this.y -= this.speed + this.distanceTolerance
       }
       if (this.mvLeft) {
-        this.x += this.speed
+        this.x += this.speed + this.distanceTolerance
       }
       if (this.mvRight) {
-        this.x -= this.speed
+        this.x -= this.speed + this.distanceTolerance
       }
     }
   }

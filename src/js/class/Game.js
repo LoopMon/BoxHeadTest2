@@ -37,10 +37,10 @@ class BoxHead {
 
   update = () => {
     // FUNÇÃO PARA ATUALIAR O ESTADO DAS ENTIDADES
+    this.collisions()
     this.player.move()
     this.spawnZombies()
     this.zombiesMove()
-    this.collisions()
   }
 
   spawnZombies = () => {
@@ -67,6 +67,10 @@ class BoxHead {
     this.player.stayInto(this.cnv)
     this.columns.forEach((column) => {
       this.player.collision(column)
+    })
+    this.spawners.forEach((spawn) => {
+      spawn.collisionWithOthers()
+      spawn.collisionWithPlayer(this.player)
     })
   }
 

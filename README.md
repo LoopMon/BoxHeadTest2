@@ -1,12 +1,20 @@
-# Box Head Game
+# Projeto
 
-Este repositório foi feito para fazer uma cópia de um jogo chamado "Box Head".
+Este repositório foi feito para fazer uma cópia de um jogo chamado "Box Head". Box Head é um jogo que joguei muito na minha infância com meu primo [@ErickMoreira13](http://github.com/ErickMoreira13), e pela nostalgia vou tentar recria-lo para mim 😁.
+
+Meu objetivo é recriar o jogo usando apenas as tecnologias:
+
+- HTML5
+- CSS3
+- JS
 
 <div align="center">
 
 ![Box Head](https://www2.minijuegosgratis.com/v3/games/thumbnails/8333_1.jpg)
 
 </div>
+
+# Box Head Game
 
 Box Head é uma jogo de sobreviver a horda de zombies, o jogo consiste em eliminar os zombies com os equipamentos que o jogador vai adquirindo ao decorrer que elimina os zombies.
 
@@ -16,38 +24,6 @@ Box Head é uma jogo de sobreviver a horda de zombies, o jogo consiste em elimin
 
 </div>
 
-# Dia a Dia
+# Trajetório
 
-## Dia 1
-
-- Criação do canvas;
-- Criação do personagem;
-- Movimentação do personagem;
-- Colisão com o canvas;
-
-<div align="center">
-
-<img src="./doc_images/dia1.jpg" width="500">
-
-</div>
-
-## Dia 2
-
-- Criação dos pilares do mapa;
-- Colisão com os pilares;
-
-<div align="center">
-
-<img src="./doc_images/dia2.png" width="500">
-
-</div>
-
-## Dia 3
-
-- Remodelando todo o projeto para aplicar conhecimentos de OO;
-- Criação da Classe BoxHead para gerenciar os objetos do game;
-- Criação dos Spawners e Zombies;
-
-<div align="center">
-<img src="./doc_images/dia3.png" width="500">
-</div>
+Para não ocupar muito espaço aqui na área principal do projeto, criei um arquivo documentando um pouco das atualizações que fui fazendo ao decorrer da evolução do projeto. [Ir para dia_a_dia.md](./doc_images/doc_project.md)

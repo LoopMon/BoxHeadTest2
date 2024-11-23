@@ -53,4 +53,4 @@ const game = new BoxHead(
   directions
 )
 
-game.init()
+// game.init()

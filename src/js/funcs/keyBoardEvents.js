@@ -38,6 +38,9 @@ function getActionOff(player, action) {
 
 document.addEventListener("keydown", (e) => {
   getActionOn(game.player, e.key)
+  if (e.key === "n") {
+    game.init()
+  }
 })
 document.addEventListener("keyup", (e) => {
   getActionOff(game.player, e.key)
